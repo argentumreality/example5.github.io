@@ -44,31 +44,16 @@
           top: 1%;
           height: 6%;
         }
-        button {
-          position: absolute;
-          background-color: #A00A0A;
-          border-radius: 12px;
-          font-size: 18;
-          border: none;
-          bottom: 5%;
-          left:15%;
-          align-items: center;
-          font-weight: 800;
-          color: white;
-          padding: 1em;
-          justify-content: center;
-        }
+        
       </style>
       <div class="lol">
         <img src="glb/arg.jpg">
       </div>
       
-      <model-viewer position="0 0 0" src="glb/divanblue.glb" ar ar-modes="webxr scene-viewer quick-look fallback"
-      ar-scale="auto" auto-rotate camera-controls alt="model" ios-src="glb/divanblue.usdz">
-        <button
-          slot="ar-button">
-          ОТКРЫТЬ ПРОСМОТР AR
-      </button>
+      <model-viewer position="0 0 0" src="glb/leather.glb"
+      skybox-image="glb/shanghai_bund_1k.hdr"
+      ar ar-modes="webxr scene-viewer quick-look fallback"
+      ar-scale="auto" auto-rotate camera-controls alt="model" ios-src="glb/leather.usdz">
         </model-viewer>
     </div>
   </body>
